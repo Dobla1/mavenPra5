@@ -15,6 +15,7 @@ public class App
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String eingabe = in.readLine().toUpperCase();
         System.out.println(eingabe);
+        System.out.println("das wars");
         }catch(IOException e){
         	System.out.println(e.getMessage());
         }
