@@ -1,10 +1,14 @@
+/*
+ * @packages 
+ * @author Dominik Blankenhorn
+ * @version 1.0
+ */
 package de.domi;
 
 import java.io.*;
 
 /**
- * Hello world!
- *
+ * Praktikum5
  */
 public class App 
 {
@@ -12,6 +16,7 @@ public class App
     {
         System.out.println( "Bitte Zeichenkette eingeben!!" );
         try{
+        //Einlesen des Strings
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String eingabe = in.readLine().toUpperCase();
         System.out.println(eingabe);
